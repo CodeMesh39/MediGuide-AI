@@ -1,5 +1,7 @@
 # MediGuide AI
 
+![MediGuide AI Banner](assets/mediguide-banner.png.png)
+
 MediGuide AI is an AI-powered healthcare assistant designed to provide medical guidance, health insights, report analysis, and emergency support through an intuitive and responsive web application.
 
 ## Features
