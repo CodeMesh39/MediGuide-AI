@@ -8,6 +8,10 @@ load_dotenv()
 genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
 )
+key = os.getenv("GEMINI_API_KEY")
+
+print("Key loaded:", key is not None)
+print("Key prefix:", key[:10] if key else "None")
 
 model = genai.GenerativeModel(
     "gemini-3.5-flash"
