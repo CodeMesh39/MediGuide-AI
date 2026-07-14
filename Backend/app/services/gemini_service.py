@@ -10,14 +10,14 @@ genai.configure(
 )
 
 model = genai.GenerativeModel(
-    "gemini-2.5-flash"
+    "gemini-3.5-flash"
 )
 chat_model = genai.GenerativeModel(
-    "gemini-2.5-flash"
+    "gemini-3.5-flash"
 )
 
 vision_model = genai.GenerativeModel(
-    "gemini-2.5-flash"
+    "gemini-3.5-flash"
 )
 from google.api_core.exceptions import ResourceExhausted
 
